@@ -92,7 +92,7 @@ java -version
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/appcreatorabhay/expensetracker.git
 ```
 
 Move into the project directory:
@@ -112,7 +112,7 @@ Build the project:
 ### Windows
 
 ```bash
-mvnw.cmd clean install
+.\mvnw.cmd clean install
 ```
 
 ---
@@ -130,7 +130,7 @@ Start the Spring Boot application:
 ### Windows
 
 ```bash
-mvnw.cmd spring-boot:run
+.\mvnw.cmd spring-boot:run
 ```
 
 The application will start on:
@@ -154,7 +154,7 @@ Run all tests:
 ### Windows
 
 ```bash
-mvnw.cmd test
+.\mvnw.cmd test
 ```
 
 ---
