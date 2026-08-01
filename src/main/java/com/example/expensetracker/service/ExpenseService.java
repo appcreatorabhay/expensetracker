@@ -15,7 +15,7 @@ public class ExpenseService {
     public Expense addExpense(Expense expense) {
         expense.setId(idCounter++);
 
-        // ✅ If user did NOT send date → use current date
+        
         if (expense.getDate() == null) {
             expense.setDate(java.time.LocalDate.now());
         }
